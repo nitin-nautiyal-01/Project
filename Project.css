@@ -1,0 +1,466 @@
+body
+{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+.nav
+{
+    height: 116px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.nav-bar{
+    font-size:18px;
+   
+}
+.logo a{
+    text-decoration: none;
+    color:white;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:white;   
+    padding-right: 15px;
+}
+.nav-bar a:hover{
+    color:rgb(96 94 252);
+    transition-property: all;
+    transition-duration:0.5s;
+    transition-timing-function: ease-in;
+}
+.nav-bar i{
+    color:white;
+    padding-right: 10px;
+
+}
+#login{
+    color:rgb(96 94 252);
+}
+#login:hover
+{
+    color:rgb(51, 49, 178);
+}
+.nav-bar button
+{
+    width:150px;
+    height:50px;
+    border:2px solid white;
+    border-radius: 15px;
+    background-color: black;
+    color:white;
+    font-size:16px;
+}
+.nav-bar button:hover{
+    color:rgba(255, 255, 255,0.8);
+    border:2px solid rgba(255, 255, 255,0.8);
+}
+
+/* CONTENT OF THE WEBPAGE */
+
+.Future{
+    width:750px;
+    height:280px;
+    color:white;
+    font-size: 100px;
+
+}
+.Trends{
+    width:280px;
+    height:60px;
+    color:white;
+    font-size:27px;
+}
+.button{
+    position:relative;
+    top:10px;
+}
+
+.button button{
+    width:150px;
+    height:50px;
+    border:2px solid rgb(96 94 252);
+    border-radius: 15px;
+    background-color: rgb(96 94 252);
+    color:white;
+    font-size:16px;
+}
+.button button:hover{
+    background-color: rgba(97, 94, 252, 0.778);
+    color:rgba(255, 255, 255,0.8);
+    border:2px solid rgba(97, 94, 252, 0.778);
+}
+
+/*  */
+.animation
+{
+    width:700px;
+    height:700px;
+    background-image: url("/Image.png");
+    background-size:cover;
+    position: relative;
+    left:580px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.venue
+{
+    color:white;
+    width:150px;
+    height:90px;
+    font-size: 24px;
+}
+/* image section */
+.sec
+{
+    height:850px;
+    position:relative;
+    bottom:300px;
+    display: flex;
+
+}
+.img-sec{
+    width:750px;
+    height:850px;
+}
+.text-sec{
+    width:750px;
+    height:850px;
+}
+.img1{
+    width:322px;
+    height:432px;
+    background-image: url("/image1.webp");
+    background-size: cover;
+    position: relative;
+    left:200px;
+}
+.img2{
+    width:385px;
+    height:385px;
+    background-image: url("/image2.webp");
+    background-size: cover;
+    position: relative;
+    left:290px;
+    bottom:100px;
+}
+.img3{
+    width:230px;
+    height:170px;
+    background-image: url("/image3.webp");
+    background-size: cover;
+    position: relative;
+    left:254px;
+    bottom:135px;
+}
+.img1:hover{
+    width:342px;
+    height:452px;
+    background-image: url("/image1.webp");
+    background-size: cover;
+    transition:all 0.3s ease-in-out 0.0s;
+}
+.img2:hover
+{
+    width:395px;
+    height:395px;
+    background-image: url("/image2.webp");
+    background-size: cover;
+    transition:all 0.3s ease-in-out 0.0s;
+}
+.img3:hover{
+    width:240px;
+    height:180px;
+    background-image: url("/image3.webp");
+    background-size: cover;
+    transition:all 0.3s ease-in-out 0.0s;
+
+}
+.text-sec h1{
+    width:375px;
+    height:120px;
+    color:white;
+    font-size: 56px;
+    position: relative;
+    top:380px;
+    left:50px;
+}
+.text-sec p{
+    width:335px;
+    height:60px;
+    color:white;
+    font-size: 24px;
+    position: relative;
+    top:350px;
+    left:50px;
+}
+/*  */
+.speakers{
+    height:370px;
+    position: relative;
+    bottom:200px;
+
+}
+.speakers-heading h1{
+   height:43px;
+  color:white;  
+  font-size: 38px;
+  display:flex;
+  justify-content: center;
+}
+.speakers-image{
+    display: flex;
+    justify-content: space-around;
+}
+.speakers-image .s-1{
+    height:470px;
+    width:352px;
+    background-image: url("/S_1.jpg");
+    background-size:cover;
+
+}
+.speakers-image .s-1:hover{
+    background-image: url("/S_1_1.jpg");
+    background-size:cover;
+    transition: all 0.5s ease-in-out 0.0s;
+
+}
+.speakers-image .s-2{
+    height:470px;
+    width:352px;
+    background-image: url("/S_2.avif");
+    background-size:cover;
+}
+.speakers-image .s-2:hover{
+    background-image: url("/S_2_2.jpg");
+    background-size:cover;
+    transition: all 0.5s ease-in-out 0.0s;
+
+}
+.speakers-image .s-3{
+    height:470px;
+    width:352px;
+    background-image: url("/S_3.jpg");
+    background-size:cover;
+
+}
+.speakers-image .s-3:hover{
+    background-image: url("/S_3_3.jpg");
+    background-size:cover;
+    transition: all 0.5s ease-in-out 0.0s;
+}
+.s-1 h2,p,span{
+    color:white;
+    position: relative;
+    top:330px;
+    left:28px;
+}
+.s-2 h2,p,span{
+    color:white;
+    position: relative;
+    top:330px;
+    left:28px;
+}
+.s-3 h2,p,span{
+    color:white;
+    position: relative;
+    top:330px;
+    left:28px;
+}
+hr{
+    color:white;
+    font-size: 700;
+}
+/* What will You Learn */
+.wwyl-h{
+    height:200px;
+    color:white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wwyl{
+    height:500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.wwyl-1{
+    height:400px;
+    width:422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 110px;
+}
+.wwyl-1 .i{
+    width:40px;
+    height:40px;
+    color:rgb(54, 196, 54);
+    font-size: 40px;
+    position: relative;
+    right:85px;
+    top:58px;
+}
+.wwyl-1 .one{
+    font-size: 130px;
+    width:211px;
+    height: 90px;
+    color:white;
+    
+}
+.wwyl-1 .BS{
+    font-size: 24px;
+    width:211px;
+    height:90px;
+    color:white;
+}
+.wwyl-2{
+    height:400px;
+    width:422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 110px;
+}
+.wwyl-2 .i{
+    width:40px;
+    height:40px;
+    color:rgb(43, 46, 241);
+    font-size: 40px;
+    position: relative;
+    right:85px;
+    top:58px;
+}
+.wwyl-2 .two{
+    font-size: 130px;
+    width:211px;
+    height: 90px;
+    color:white;
+    
+}
+.wwyl-2 .VR{
+    font-size: 24px;
+    width:211px;
+    height:90px;
+    color:white;
+}
+
+.wwyl-3{
+    height:400px;
+    width:422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 110px;
+}
+.wwyl-3 .i{
+    width:40px;
+    height:40px;
+    color:rgb(166, 0, 249);
+    font-size: 40px;
+    position: relative;
+    right:85px;
+    top:58px;
+}
+.wwyl-3 .three{
+    font-size: 130px;
+    width:211px;
+    height: 90px;
+    color:white;
+    
+}
+.wwyl-3 .TT{
+    font-size: 24px;
+    width:211px;
+    height:90px;
+    color:white;
+}
+/* Ready to creat buzz */
+.rtcb{
+    height: 200px;
+    color:white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:158px;
+}
+.rtcb button{
+    width:150px;
+    height:50px;
+    border:2px solid rgb(96 94 252);
+    border-radius: 15px;
+    background-color: rgb(96 94 252);
+    color:white;
+    font-size:16px;   
+    margin-left:10px ;
+}
+.rtcb button:hover{
+        background-color: rgba(97, 94, 252, 0.778);
+        color:rgba(255, 255, 255,0.8);
+        border:2px solid rgba(97, 94, 252, 0.778);   
+}
+
+/* Footer */
+
+.foot{
+    height:150px;
+    display:flex;
+}
+
+.email{
+    height: 150px;
+    width:450px;
+    color:white;
+    font-size: 18px;
+}
+.email a{
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+}
+.sm{
+    height: 150px;
+    width:450px;
+    color:white;
+    font-size: 18px;
+    text-align: center;
+}
+.sm a{
+    color:white;
+    font-size:18px;
+}
+.sm i{
+    color:white;
+    font-size: 18px;
+}
+.add{
+    height: 150px;
+    width:450px;
+    color:white;
+    font-size: 18px;
+    text-align: end;
+    display:flex;
+    justify-content: end;
+
+}
+.add2{
+    width:210px;
+    height:47px;
+}
